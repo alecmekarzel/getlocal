@@ -1,0 +1,25 @@
+{
+	"name": "getlocal",
+	"version": "1.0.1",
+	"description": "Quickly output (or copy to clipboard) your local IPv4 address.",
+	"author": "Alec Mekarzel <alec@worklovegrow.com>",
+	"license": "MIT",
+	"engines": {
+		"node": ">= 6.0.0"
+	},
+	"main": "./src/index.js",
+	"bin": {
+		"getlocal": "./src/command.js"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"dependencies": {
+		"clipboardy": "^1.1.4",
+		"commander": "^2.9.0"
+	},
+	"devDependencies": {
+		"chai": "^3.5.0",
+		"mocha": "^2.4.5"
+	}
+}
