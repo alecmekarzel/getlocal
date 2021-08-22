@@ -1,15 +1,18 @@
 {
-	"name": "getlocal",
-	"version": "1.0.1",
+	"name": "@alecmekarzel/getlocal",
+	"author": "Alec Mekarzel",
 	"description": "Quickly output (or copy to clipboard) your local IPv4 address.",
-	"author": "Alec Mekarzel <alec@worklovegrow.com>",
-	"license": "MIT",
-	"engines": {
-		"node": ">= 6.0.0"
+	"version": "1.0.2",
+	"repository": "git://github.com/alecmekarzel/getlocal.git",
+	"publishConfig": {
+		"registry":"https://npm.pkg.github.com"
 	},
 	"main": "./src/index.js",
 	"bin": {
 		"getlocal": "./src/command.js"
+	},
+	"engines": {
+		"node": ">= 6.0.0"
 	},
 	"scripts": {
 		"test": "mocha"
