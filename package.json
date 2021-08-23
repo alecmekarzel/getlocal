@@ -2,7 +2,7 @@
 	"name": "@alecmekarzel/getlocal",
 	"author": "Alec Mekarzel",
 	"description": "Quickly output (or copy to clipboard) your local IPv4 address.",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"repository": "git://github.com/alecmekarzel/getlocal.git",
 	"publishConfig": {
 		"registry":"https://npm.pkg.github.com"

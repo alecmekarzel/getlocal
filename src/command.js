@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
 // NOTE: this script will be used when the user attempts to use the CLI
+const { program } = require('commander')
+const clipboardy = require('clipboardy')
 
-const path = require('path')
 const getlocal = require('./index')
-const program = require('commander')
 const package = require('../package.json')
 
-const clipboardy = require('clipboardy')
 
 program
 	.version(package.version)
@@ -19,7 +18,9 @@ program
 
 program.parse(process.argv)
 
-var localip = getlocal()
+const options = program.opts()
+const localip = getlocal()
 
 console.log(localip)
-if (program.copy) clipboardy.writeSync(localip)
+
+if (options.copy) clipboardy.writeSync(localip)
