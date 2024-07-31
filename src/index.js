@@ -8,9 +8,9 @@ module.exports = function getlocal() {
 	var interfaces = os.networkInterfaces()
 	var result
 
-	Object.keys(interfaces).forEach(function(ifname) {
-		interfaces[ifname].forEach(function(iface) {
-			if ("IPv4" === iface.family && iface.internal === false) result = iface.address
+	Object.keys(interfaces).forEach(function (ifname) {
+		interfaces[ifname].forEach(function (iface) {
+			if ('IPv4' === iface.family && iface.internal === false) result = iface.address
 		})
 	})
 

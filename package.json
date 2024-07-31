@@ -5,7 +5,7 @@
 	"version": "1.0.4",
 	"repository": "git://github.com/alecmekarzel/getlocal.git",
 	"publishConfig": {
-		"registry":"https://npm.pkg.github.com"
+		"registry": "https://npm.pkg.github.com"
 	},
 	"main": "./src/index.js",
 	"bin": {

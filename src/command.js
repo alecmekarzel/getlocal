@@ -7,14 +7,9 @@ const clipboardy = require('clipboardy')
 const getlocal = require('./index')
 const package = require('../package.json')
 
+program.version(package.version).description(package.description).usage('[options]')
 
-program
-	.version(package.version)
-	.description(package.description)
-	.usage('[options]')
-
-program
-	.option('-c, --copy', 'automatically copy local ip to clipboard')
+program.option('-c, --copy', 'automatically copy local ip to clipboard')
 
 program.parse(process.argv)
 

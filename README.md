@@ -1,3 +1,23 @@
+```
+███████████████████████████████████████████████████████████
+```
+
+```
+ █████  ██████   ██████ ██   ██ ██ ██    ██ ███████ ██████  
+██   ██ ██   ██ ██      ██   ██ ██ ██    ██ ██      ██   ██ 
+███████ ██████  ██      ███████ ██ ██    ██ █████   ██   ██ 
+██   ██ ██   ██ ██      ██   ██ ██  ██  ██  ██      ██   ██ 
+██   ██ ██   ██  ██████ ██   ██ ██   ████   ███████ ██████  
+```
+
+> *This project was built over seven years ago as a quick-use utility not meant for production purposes and has since been archived.*
+>
+> *However, feel free to peruse, fork, modify, and so forth!*
+
+```
+███████████████████████████████████████████████████████████
+```
+
 # getlocal
 
 Quickly output (or copy to clipboard) your local IPv4 address.
@@ -5,6 +25,7 @@ Quickly output (or copy to clipboard) your local IPv4 address.
 This can be useful when spinning up a simple server you'd like to share across your local network (home router, etc.)
 
 ## Installation
+
 ```bash
 # NPM
 $ npm install getlocal
